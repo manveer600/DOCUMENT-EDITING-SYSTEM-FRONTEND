@@ -1,0 +1,25 @@
+ .ql-container{
+  width: 60%;
+  background: #FFF;
+  box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.5);
+  margin:10px auto 10px auto !important;
+  min-height: 100vh;
+}
+
+
+.ql-toolbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:50px ;
+  box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.5);
+  position:sticky;
+  top: 0;
+  z-index:1;
+  background: #F5F5F5;
+  border: none !important;
+} 
+
+body{
+  background-color:#F5F5F5 ;
+}
