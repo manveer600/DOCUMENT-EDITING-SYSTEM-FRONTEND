@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'http://localhost:9000';
+const BASE_URL = 'https://document-editing-system-backend2.onrender.com/';
 
 const axiosInstance = axios.create(); 
 axiosInstance.defaults.baseURL = BASE_URL;
