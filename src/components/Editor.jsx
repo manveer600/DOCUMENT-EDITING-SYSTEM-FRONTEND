@@ -65,6 +65,8 @@ function Editor() {
 
   useEffect(() => {
     const socketServer = io("http://localhost:8000");
+    console.log("socketServer", socketServer);
+
     setSocket(socketServer);
 
     return () => {
